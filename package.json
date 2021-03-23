@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/praveenscience/har-reader#readme",
   "dependencies": {
-    "fs": "0.0.1-security"
+    "co": "^4.6.0",
+    "fs": "0.0.1-security",
+    "request": "^2.88.2"
   }
 }
