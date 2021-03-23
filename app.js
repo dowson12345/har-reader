@@ -1,6 +1,6 @@
 "use strict";
 const fs = require("fs");
-const fileContents = fs.readFileSync("file.har");
+const fileContents = fs.readFileSync("test.har");
 const jsonContents = JSON.parse(fileContents);
 console.log(`Entries: ${jsonContents.log.entries.length}`);
 const urls = jsonContents.log.entries.map(entry => entry.request.url);
