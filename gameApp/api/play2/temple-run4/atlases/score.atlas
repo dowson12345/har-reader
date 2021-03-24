@@ -1,0 +1,76 @@
+
+score.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+achievements
+  rotate: false
+  xy: 1036, 285
+  size: 273, 273
+  orig: 273, 273
+  offset: 0, 0
+  index: -1
+back
+  rotate: false
+  xy: 4, 566
+  size: 1171, 1259
+  orig: 1171, 1259
+  offset: 0, 0
+  index: -1
+fade
+  rotate: false
+  xy: 1989, 1813
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+leaderboard
+  rotate: false
+  xy: 1036, 4
+  size: 273, 273
+  orig: 273, 273
+  offset: 0, 0
+  index: -1
+medal
+  rotate: false
+  xy: 1183, 933
+  size: 372, 372
+  orig: 372, 372
+  offset: 0, 0
+  index: -1
+menu
+  rotate: false
+  xy: 1703, 1548
+  size: 278, 277
+  orig: 278, 277
+  offset: 0, 0
+  index: -1
+restart
+  rotate: false
+  xy: 1183, 648
+  size: 277, 277
+  orig: 277, 277
+  offset: 0, 0
+  index: -1
+score
+  rotate: false
+  xy: 4, 46
+  size: 1024, 512
+  orig: 1024, 512
+  offset: 0, 0
+  index: -1
+shop
+  rotate: false
+  xy: 1703, 1263
+  size: 277, 277
+  orig: 277, 277
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 1183, 1313
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1

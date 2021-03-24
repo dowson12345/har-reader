@@ -66,3 +66,11 @@ function intToString(num, len) {
     }
     return str;
 }
+
+
+function test()
+{
+    console.log("aaa");
+}
+
+ exports.test=test;

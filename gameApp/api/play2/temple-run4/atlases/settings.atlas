@@ -1,0 +1,111 @@
+
+settings.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+almaz
+  rotate: false
+  xy: 1580, 317
+  size: 236, 301
+  orig: 236, 301
+  offset: 0, 0
+  index: -1
+back
+  rotate: false
+  xy: 4, 910
+  size: 1171, 1125
+  orig: 1171, 1125
+  offset: 0, 0
+  index: -1
+close
+  rotate: false
+  xy: 598, 625
+  size: 278, 277
+  orig: 278, 277
+  offset: 0, 0
+  index: -1
+developedby
+  rotate: false
+  xy: 884, 626
+  size: 927, 134
+  orig: 927, 134
+  offset: 0, 0
+  index: -1
+error
+  rotate: false
+  xy: 4, 148
+  size: 586, 754
+  orig: 586, 754
+  offset: 0, 0
+  index: -1
+fade
+  rotate: false
+  xy: 1904, 1971
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 1183, 913
+  size: 526, 480
+  orig: 526, 480
+  offset: 0, 0
+  index: -1
+loading_data
+  rotate: false
+  xy: 911, 45
+  size: 955, 133
+  orig: 955, 133
+  offset: 0, 0
+  index: -1
+loading_error
+  rotate: false
+  xy: 911, 768
+  size: 985, 134
+  orig: 985, 134
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 598, 186
+  size: 635, 431
+  orig: 635, 431
+  offset: 0, 0
+  index: -1
+logo2
+  rotate: false
+  xy: 1241, 287
+  size: 331, 331
+  orig: 331, 331
+  offset: 0, 0
+  index: -1
+saving_error
+  rotate: false
+  xy: 4, 4
+  size: 899, 136
+  orig: 899, 136
+  offset: 0, 0
+  index: -1
+sound_off
+  rotate: false
+  xy: 1730, 1686
+  size: 278, 277
+  orig: 278, 277
+  offset: 0, 0
+  index: -1
+sound_on
+  rotate: false
+  xy: 1730, 1401
+  size: 278, 277
+  orig: 278, 277
+  offset: 0, 0
+  index: -1
+stone
+  rotate: false
+  xy: 1183, 1500
+  size: 539, 535
+  orig: 539, 535
+  offset: 0, 0
+  index: -1
