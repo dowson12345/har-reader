@@ -15,6 +15,10 @@ if (fs.existsSync(dirPath)) {
 
 
 function downLoadFile(url) {
+    if (url.indexOf(";") > -1) {
+        console.log(url);
+        return;
+    }
     let tempIndex = url.indexOf("?");
     if (tempIndex > -1) {
         let resUrl = url.slice(0, tempIndex);
@@ -32,13 +36,20 @@ function writeFile(url) {
     let tempDirPath = path.join(__dirname, dirName);
     createDir(tempDirPath);
     if (fileName && fileName.indexOf('.') > -1) {
-
-        let allName = path.join(tempDirPath, fileName);
-        // console.log(allName);
-        let stream = fs.createWriteStream(allName);
-        request(url).pipe(stream).on("close", function (err) {
-            // console.log("文件[" + fileName + "]下载完毕");
+        request(url, function (error, response, body) {
+            if (!error && response.statusCode == 200) {
+                let allName = path.join(tempDirPath, fileName);
+                // console.log(allName);
+                let stream = fs.createWriteStream(allName);
+                request(url).pipe(stream).on("close", function (err) {
+                    // console.log("文件[" + fileName + "]下载完毕");
+                });
+            }
+            else {
+                console.log("文件请求失败:   " + url);
+            }
         });
+
     }
 }
 
