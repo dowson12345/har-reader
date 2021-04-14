@@ -5,6 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app",
+    "cpfile":"cd /&& cd Users/admin/Downloads/ && cp -rf test.har ../jackTest/harNode/har-reader/",
+    "autoProduct":"npm run cpfile && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
