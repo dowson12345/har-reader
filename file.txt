@@ -1,3 +1,3 @@
-https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/playable/94875836519e2a46c8a6debcc4935b2a/index.html
+https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/playable/6dbdc8384c720774dfadec9b699cfd70/index.html
 https://sf3-ttcdn-tos.pstatp.com/obj/union-fe-nc/playable/sdk/playable-sdk.js
-https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/playable/94875836519e2a46c8a6debcc4935b2a/__playable_ready_resources__.json
+https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/playable/6dbdc8384c720774dfadec9b699cfd70/__playable_ready_resources__.json
