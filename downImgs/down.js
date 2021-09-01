@@ -8,8 +8,8 @@ const IMAGE_URL = "https://onimg.leshu.com/wxgame/zhaocha/images/";
 console.log(__dirname);
 let imgData = fs.readFileSync('./config.json');
 let imgJson = JSON.parse(imgData);
-
 // console.log(imgJson.length);
+
 let allImgUrls = [];
 for (const key in imgJson) {
     const element = imgJson[key];
@@ -17,25 +17,43 @@ for (const key in imgJson) {
     allImgUrls = allImgUrls.concat(element["images2"]);
 }
 
-// console.log(allImgUrls);
+console.log("需要下载的资源数：" + allImgUrls.length);
 
 var dirPath = path.join(__dirname, "allImgs");
-if (fs.existsSync(dirPath)) {
-    //同步删除目录
-    fs.rmdirSync(dirPath, { recursive: true });
-}
+console.log(dirPath);
+// if (fs.existsSync(dirPath)) {
+//     //同步删除目录
+//     fs.rmdirSync(dirPath, { recursive: true });
+// }
 
-fs.mkdirSync(dirPath, { recursive: true });
+// fs.mkdirSync(dirPath, { recursive: true });
 
 const loopDownload = async () => {
     for (let i = 0; i < allImgUrls.length; i++) {
-        let item = allImgUrls.shift();
-        let res = await downImg(item);
-        console.log(res);
+        let item = allImgUrls[i];
+        if (isFileExist(item)) {
+            // console.log("已经存在====> "+i+"   "+item);
+            continue;
+        }
+        let res = await downImg(item).then((res) => {
+            console.log(res);
+        }).catch((err) => {
+            console.log("拉取失败：" + err);
+            reLoad(err);
+        });
+
     }
 }
 
 loopDownload();
+
+
+function isFileExist(imgName){
+    // console.log(fs.existsSync(path.join(dirPath, imgName)));
+    return fs.existsSync(path.join(dirPath, imgName));
+}
+
+// console.log(fs.existsSync(path.join(dirPath, "10_0189_05_0112.jpg")));
 
 // allImgUrls.forEach(async element => {
 //     let res = await downImg(element);
@@ -59,9 +77,9 @@ function downImg(fileName) {
                 });
             }
             else {
-                // console.log("文件请求失败:   " + url);
                 if (error) {
-                    reject("文件请求失败:   " + url);
+                    // reject("文件请求失败:   " + url);
+                    reject(url);
                 } else {
                     reject(new Error("下载失败，返回状态码不是200，状态码：" + response.statusCode));
                 }
@@ -80,5 +98,5 @@ async function reLoad(url) {
     retryInfo["url"] = tryTimes++;
 
     let res = await downImg(url);
-    console.log("重新加载====>"+res);
+    console.log("重新加载====>" + res);
 }
