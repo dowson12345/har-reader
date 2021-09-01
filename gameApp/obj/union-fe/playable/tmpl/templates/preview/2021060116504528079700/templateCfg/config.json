@@ -1,0 +1,283 @@
+{
+    "global": {
+        "images": {
+            "b6c84dc479fb46a3a99043b4d1aa21d7": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/b6c84dc479fb46a3a99043b4d1aa21d7.png",
+                "label": "btn_kaishiyouxi",
+                "_uuid": "b6yE3EeftGo6mQQ7TRqiHX",
+                "height": 148,
+                "width": 450,
+                "hidden": true
+            },
+            "bb7a4f190dd24a41bdc030cd330a62d7": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/bb7a4f190dd24a41bdc030cd330a62d7.png",
+                "label": "UiwinFxjuzisahua_zuo",
+                "_uuid": "bbek8ZDdJKQb3AMM0zCmLX",
+                "height": 259,
+                "width": 39,
+                "hidden": true
+            },
+            "4936370a5b454ccfb7384c3b9e55d5a2": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/4936370a5b454ccfb7384c3b9e55d5a2.png",
+                "label": "UiwinFxjuzisahua_you",
+                "_uuid": "49NjcKW0VMz7c4TDueVdWi",
+                "height": 259,
+                "width": 39,
+                "hidden": true
+            }
+        },
+        "audios": {
+            "a229692ccc7343c191718e98f65849a9": {
+                "type": "audio",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/a229692ccc7343c191718e98f65849a9.mp3",
+                "label": "背景音乐",
+                "_uuid": "a2KWkszHNDwZFxjpj2WEmp",
+                "duration": 36.101224,
+                "volume": 1
+            },
+            "b234887e8b554d299fec2f846880b1e7": {
+                "type": "audio",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/b234887e8b554d299fec2f846880b1e7.mp3",
+                "label": "消除音效",
+                "_uuid": "b2NIh+i1VNKZ/sL4RogLHn",
+                "duration": 0.835875,
+                "volume": 1
+            }
+        },
+        "__updateTime": 1622537346753,
+        "langs": [],
+        "customLoading": true,
+        "loading": {
+            "backgroundColor": "#000",
+            "backgroundImage": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/loading__backgroundImage.jpg",
+            "logo": "",
+            "logoStyle": "",
+            "progressText": "",
+            "progressTextStyle": "",
+            "progressStyle": "",
+            "progressBarStyle": "",
+            "backgroundSize": "cover",
+            "progressBarImage": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/loading__progressBarImage.png",
+            "progressImage": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/loading__progressImage.png",
+            "progressBarPosition": "70%"
+        },
+        "label": "global",
+        "preview": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/preview-global.png",
+        "selectLang": "auto"
+    },
+    "Layer_1": {
+        "images": {
+            "5bf625b3823b4a1a908fb9ffb9f1149d": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/5bf625b3823b4a1a908fb9ffb9f1149d.jpg",
+                "label": "背景",
+                "_uuid": "5b9iWzgjtKGpCPuf+58RSd",
+                "height": 1280,
+                "width": 1280
+            },
+            "0f640dfafcca4cf0ad30a11f599bf197": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/0f640dfafcca4cf0ad30a11f599bf197.png",
+                "label": "背景_点",
+                "_uuid": "0fZA36/MpM8K0woR9Zm/GX",
+                "height": 358,
+                "width": 978
+            },
+            "0e8bfc32008f4c55b64cbb31d3021be2": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/0e8bfc32008f4c55b64cbb31d3021be2.png",
+                "label": "背景_星球1",
+                "_uuid": "0ei/wyAI9MVbZMuzHTAhvi",
+                "height": 250,
+                "width": 552
+            },
+            "4e063a5291654017aa5ec5b07fe4eb1a": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/4e063a5291654017aa5ec5b07fe4eb1a.png",
+                "label": "背景_星球2",
+                "_uuid": "4eBjpSkWVAF6pexbB/5Osa",
+                "height": 652,
+                "width": 664
+            },
+            "176d3c94a33a4c8ca27181d8115448ac": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/176d3c94a33a4c8ca27181d8115448ac.png",
+                "label": "背景_三角",
+                "_uuid": "17bTyUozpMjKJxgdgRVEis",
+                "height": 344,
+                "width": 346
+            },
+            "1d828f5391bf4e0b9fdc23486e29f0f9": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/1d828f5391bf4e0b9fdc23486e29f0f9.png",
+                "label": "logo",
+                "_uuid": "1dgo9Tkb9OC5/cI0huKfD5",
+                "height": 132,
+                "width": 442
+            },
+            "af107305bc524488bfe5dc37a36f6e91": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/af107305bc524488bfe5dc37a36f6e91.png",
+                "label": "任务进度条",
+                "_uuid": "afEHMFvFJEiL/l3Dejb26R",
+                "height": 80,
+                "width": 606
+            },
+            "b3251671332d4842a2da5cf3545ace1a": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/b3251671332d4842a2da5cf3545ace1a.png",
+                "label": "任务进度条_底",
+                "_uuid": "b3JRZxMy1IQqLaXPNUWs4a",
+                "height": 80,
+                "width": 606
+            },
+            "5180a243fd8f4903befafd5eb0808ea7": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/5180a243fd8f4903befafd5eb0808ea7.png",
+                "label": "任务红包",
+                "_uuid": "51gKJD/Y9JA776/V6wgI6n",
+                "height": 510,
+                "width": 448
+            },
+            "79bc3ec0747245c3889278a9afa3e587": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/79bc3ec0747245c3889278a9afa3e587.png",
+                "label": "游戏背景",
+                "_uuid": "79vD7AdHJFw4iSeKmvo+WH",
+                "height": 738,
+                "width": 740
+            },
+            "266da453a1b84b4688ef39836ea913ba": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/266da453a1b84b4688ef39836ea913ba.png",
+                "label": "方块_20",
+                "_uuid": "26baRTobhLRojvOYNuqRO6",
+                "height": 210,
+                "width": 210
+            },
+            "db2ad16004fa48debcc2d0e3489d5630": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/db2ad16004fa48debcc2d0e3489d5630.png",
+                "label": "方块_50",
+                "_uuid": "dbKtFgBPpI3rzC0ONInVYw",
+                "height": 210,
+                "width": 210
+            },
+            "9d1a5f3319424db39dd15526c3982712": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/9d1a5f3319424db39dd15526c3982712.png",
+                "label": "方块_logo",
+                "_uuid": "9dGl8zGUJNs53RVSbDmCcS",
+                "height": 210,
+                "width": 210
+            },
+            "3325b20871804e468cee1f3b00a25473": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/3325b20871804e468cee1f3b00a25473.png",
+                "label": "方块_66",
+                "_uuid": "33JbIIcYBORozuHzsAolRz",
+                "height": 210,
+                "width": 210
+            },
+            "7c870ced361e49a7af04a1d02cb19a7d": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/7c870ced361e49a7af04a1d02cb19a7d.png",
+                "label": "奖励_50",
+                "_uuid": "7chwztNh5Jp68EodAssZp9",
+                "height": 386,
+                "width": 514
+            },
+            "a972228073fc475fb9d37de32d8d670b": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/a972228073fc475fb9d37de32d8d670b.png",
+                "label": "奖励_66",
+                "_uuid": "a9ciKAc/xHX7nTfeMtjWcL",
+                "height": 472,
+                "width": 542
+            },
+            "bac3cf49d2914e9389eea509844691e2": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/bac3cf49d2914e9389eea509844691e2.png",
+                "label": "奖励_20",
+                "_uuid": "baw89J0pFOk4nupQmERpHi",
+                "height": 454,
+                "width": 372
+            },
+            "118348e8328d4ac2b473b94e4b5e69a1": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/118348e8328d4ac2b473b94e4b5e69a1.png",
+                "label": "奖励_logo",
+                "_uuid": "11g0joMo1KwrRzuU5LXmmh",
+                "height": 132,
+                "width": 442
+            },
+            "c5fb6841ec8d48308c45a8ee4f0526dd": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/c5fb6841ec8d48308c45a8ee4f0526dd.png",
+                "label": "效果_+10",
+                "_uuid": "c5+2hB7I1IMIxFqO5PBSbd",
+                "height": 62,
+                "width": 126
+            },
+            "1bc31a527ad541649ab8f62b9af457c6": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/1bc31a527ad541649ab8f62b9af457c6.png",
+                "label": "奖励特效",
+                "_uuid": "1bwxpSetVBZJq49iua9FfG",
+                "height": 922,
+                "width": 1050
+            },
+            "dc7c329185a24e55883bb38a7dc3cba0": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/dc7c329185a24e55883bb38a7dc3cba0.png",
+                "label": "引导手指",
+                "_uuid": "dcfDKRhaJOVYg7s4p9w8ug",
+                "height": 132,
+                "width": 146
+            }
+        },
+        "label": "游戏界面",
+        "preview": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/preview-Layer_1.png"
+    },
+    "Layer_2": {
+        "images": {
+            "43cf0541a8f74ea78fa5f7f7bd734ef2": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/43cf0541a8f74ea78fa5f7f7bd734ef2.png",
+                "label": "结束界面背景",
+                "_uuid": "43zwVBqPdOp4+l9/e9c07y",
+                "height": 860,
+                "width": 702
+            },
+            "c4ef5d6106fe46aaa05e686f02c14db0": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/c4ef5d6106fe46aaa05e686f02c14db0.png",
+                "label": "结束界面_标题",
+                "_uuid": "c4711hBv5GqqBeaG8CwU2w",
+                "height": 220,
+                "width": 298
+            },
+            "42f1c1693b4a4ebca6106a83e12754ee": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/42f1c1693b4a4ebca6106a83e12754ee.png",
+                "label": "按钮_立即下载",
+                "_uuid": "428cFpO0pOvKYQaoPhJ1Tu",
+                "height": 104,
+                "width": 436
+            },
+            "f85b67f12b5f4e55ab34989caf665d70": {
+                "type": "image",
+                "value": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/f85b67f12b5f4e55ab34989caf665d70.png",
+                "label": "按钮_再玩一次",
+                "_uuid": "f8W2fxK19OVas0mJyvZl1w",
+                "height": 104,
+                "width": 436
+            }
+        },
+        "label": "结束界面",
+        "preview": "https://sf3-ttcdn-tos.pstatp.com/obj/union-fe/tmpl/projects/config/uploadResources/1501205/1622537443884/preview-Layer_2.png"
+    }
+}
